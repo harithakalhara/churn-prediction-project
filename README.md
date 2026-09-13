@@ -2,8 +2,8 @@
 
 ## 📌 Project Overview
 This project presents a comparative analysis between two machine learning approaches for predicting customer churn in a telecommunications dataset:
-1. **XGBoost Classifier** (Gradient Boosting Ensemble)[cite: 2]
-2. **Keras Multi-Layer Perceptron (MLP)** (Deep Neural Network)[cite: 2]
+1. **XGBoost Classifier** (Gradient Boosting Ensemble)
+2. **Keras Multi-Layer Perceptron (MLP)** (Deep Neural Network)
 
 Customer churn is a critical business metric. Identifying potential churners in advance allows companies to execute proactive retention strategies[cite: 2].
 
@@ -12,27 +12,27 @@ Customer churn is a critical business metric. Identifying potential churners in 
 ---
 
 ## 📁 Dataset Summary
-* **Source:** Telco Customer Churn Dataset[cite: 2]
-* **Total Records:** 7,043 customers[cite: 2]
-* **Features:** 20 predictor variables (Demographic, Service usage, Contract/Financial parameters) + 1 Target Variable (`Churn`)[cite: 2]
-* **Target Variable:** Binary Classification (`Yes` / `No`)[cite: 2]
+* **Source:** Telco Customer Churn Dataset
+* **Total Records:** 7,043 customers
+* **Features:** 20 predictor variables (Demographic, Service usage, Contract/Financial parameters) + 1 Target Variable (`Churn`)
+* **Target Variable:** Binary Classification (`Yes` / `No`)
 
 ---
 
 ## 🛠️ Technologies & Libraries Used
-* **Programming Language:** Python 3.x[cite: 2]
-* **Data Processing & EDA:** Pandas, NumPy, Matplotlib, Seaborn[cite: 2]
-* **Machine Learning:** Scikit-Learn, XGBoost Classifier[cite: 2]
-* **Deep Learning:** TensorFlow / Keras (Sequential API, Dense, Dropout, Batch Normalization)[cite: 2]
-* **Hyperparameter Tuning:** GridSearchCV, Keras Tuner (RandomSearch)[cite: 2]
+* **Programming Language:** Python 3.x
+* **Data Processing & EDA:** Pandas, NumPy, Matplotlib, Seaborn
+* **Machine Learning:** Scikit-Learn, XGBoost Classifier
+* **Deep Learning:** TensorFlow / Keras (Sequential API, Dense, Dropout, Batch Normalization)
+* **Hyperparameter Tuning:** GridSearchCV, Keras Tuner (RandomSearch)
 
 ---
 
 ## ⚙️ Data Preprocessing Methodology
-1. **Missing Value Imputation:** Handled blank values in numerical features like `TotalCharges`[cite: 2].
-2. **Categorical Encoding:** Applied One-Hot Encoding for categorical feature transformation[cite: 2].
-3. **Feature Scaling:** Applied `StandardScaler` to normalize distributions for optimal neural network convergence[cite: 2].
-4. **Train/Test Split:** Stratified dataset split to maintain target variable ratios[cite: 2].
+1. **Missing Value Imputation:** Handled blank values in numerical features like `TotalCharges'.
+2. **Categorical Encoding:** Applied One-Hot Encoding for categorical feature transformation
+3. **Feature Scaling:** Applied `StandardScaler` to normalize distributions for optimal neural network convergence
+4. **Train/Test Split:** Stratified dataset split to maintain target variable ratios
 
 ---
 
