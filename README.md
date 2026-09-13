@@ -7,8 +7,7 @@ This project presents a comparative analysis between two machine learning approa
 
 Customer churn is a critical business metric. Identifying potential churners in advance allows companies to execute proactive retention strategies[cite: 2].
 
-* **Course:** DSC3173 - Artificial Intelligence[cite: 2]
-* **Author:** Haritha Kalhara (s/21/495)[cite: 2]
+* **Author:** Haritha Kalhara
 
 ---
 
@@ -59,5 +58,5 @@ Make sure you have Python 3.8+ installed on your system.
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-cd YOUR_REPOSITORY_NAME
+git clone (https://github.com/harithakalhara/churn-prediction-project.git)
+
