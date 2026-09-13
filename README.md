@@ -1,11 +1,11 @@
-# Telco Customer Churn Prediction 📊 Predictive Modeling with XGBoost & Keras MLP
+# Telco Customer Churn Prediction  Predictive Modeling with XGBoost & Keras MLP
 
 ## 📌 Project Overview
 This project presents a comparative analysis between two machine learning approaches for predicting customer churn in a telecommunications dataset:
 1. **XGBoost Classifier** (Gradient Boosting Ensemble)
 2. **Keras Multi-Layer Perceptron (MLP)** (Deep Neural Network)
 
-Customer churn is a critical business metric. Identifying potential churners in advance allows companies to execute proactive retention strategies[cite: 2].
+Customer churn is a critical business metric. Identifying potential churners in advance allows companies to execute proactive retention strategies
 
 * **Author:** Haritha Kalhara
 
@@ -38,7 +38,7 @@ Customer churn is a critical business metric. Identifying potential churners in 
 
 ## 📊 Model Performance & Results
 
-Both models were evaluated on the unseen test dataset across standard performance metrics[cite: 2]:
+Both models were evaluated on the unseen test dataset across standard performance metrics:
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -46,8 +46,8 @@ Both models were evaluated on the unseen test dataset across standard performanc
 | **Keras MLP** | 0.7970 | **0.6705** | 0.4626 | 0.5475 | 0.8411 |
 
 ### 🔑 Key Findings & Conclusion
-* **Best Model:** **XGBoost Classifier** achieved superior overall performance with a higher **ROC-AUC (0.8459)**, **Recall (0.5267)**, and **F1-Score (0.5854)** compared to Keras MLP[cite: 2].
-* **Business Impact:** High Recall is critical in churn prediction to ensure actual churners are identified so retention offers can be served before they leave[cite: 2].
+* **Best Model:** **XGBoost Classifier** achieved superior overall performance with a higher **ROC-AUC (0.8459)**, **Recall (0.5267)**, and **F1-Score (0.5854)** compared to Keras MLP.
+* **Business Impact:** High Recall is critical in churn prediction to ensure actual churners are identified so retention offers can be served before they leave.
 
 ---
 
